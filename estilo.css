@@ -12,5 +12,13 @@ h2 {
   text-align: center;
 }
 body {
-  background-color: rgb(217, 233, 232);
+  background-color: rgb(217, 235, 235);
+}
+#menu a {
+  font-size: 20;
+  font-weight: bold;
+  color: rgb(235, 235, 247);
+}
+.carousel-inner {
+  max-height: 39rem;
 }
