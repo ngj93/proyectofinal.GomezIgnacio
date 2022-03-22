@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9ebeb;
+}
+
+#menu a {
+  font-size: 20;
+  font-weight: bold;
+  color: #ebebf7;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+@media (max-width: 768px) {
+  #intro,
+  #equipo {
+    width: 90% !important;
+  }
+  #equipo p {
+    display: none !important;
+  }
+  .servico-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .icono-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+}
+
+.mapa {
+  background: url(../proyecto.GomezIgnacio/imagenes/mapa.jpg);
+  width: 100;
+  height: 500px;
+}
+/*# sourceMappingURL=estilo.css.map */
