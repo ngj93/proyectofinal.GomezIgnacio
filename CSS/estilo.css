@@ -2,17 +2,13 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #menu a {
   font-size: 20;
   font-weight: bold;
   color: #ebebf7;
-}
-
-.carousel-inner {
-  max-height: 39rem;
 }
 
 @media (max-width: 768px) {
@@ -35,10 +31,10 @@
 @media (max-width: 576px) {
   .icono-wrap {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center !important;
-    -ms-flex-pack: center !important;
-    justify-content: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 }
 
@@ -63,7 +59,7 @@
   top: 30%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background: #fbfafa;
   border-radius: 5px;
   max-width: 500px;
@@ -87,5 +83,26 @@ footer p {
   font-size: 26px;
   padding: 0 8px;
   color: #f3f3f3;
+}
+
+.a {
+  font-family: sans-serif;
+  size: 20px;
+  color: #f3f3f3;
+}
+
+.carusel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 200px;
+  height: 100px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=estilo.css.map */
