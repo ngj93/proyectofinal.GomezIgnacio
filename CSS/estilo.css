@@ -14,7 +14,7 @@
 @media (max-width: 768px) {
   #intro,
   #equipo {
-    width: 90% !important;
+    width: 75% !important;
   }
   #equipo p {
     display: none !important;
@@ -36,11 +36,6 @@
         -ms-flex-pack: center !important;
             justify-content: center !important;
   }
-}
-
-.mapa {
-  width: 100;
-  height: 500px;
 }
 
 #bg-contacto {
@@ -91,7 +86,7 @@ footer p {
   color: #f3f3f3;
 }
 
-.carusel {
+.carousel-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,5 +103,9 @@ footer p {
 
 .containericons {
   font-size: 300px;
+}
+
+.container {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=estilo.css.map */
